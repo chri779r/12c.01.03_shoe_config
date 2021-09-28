@@ -10,3 +10,7 @@ async function fetchSvg() {
   console.log("SVG Data", mySvgData);
   document.querySelector(".content").innerHTML = mySvgData;
 }
+
+document.querySelector(".colors").addEventListener("click", changeShoeLook);
+
+function changeShoeLook() {}
